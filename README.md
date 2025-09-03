@@ -46,7 +46,7 @@
 
 #### A. 推荐：使用 C++ 编译
 
-1. 安装 [cURL 库](https://curl.se/windows/)，并配置到环境变量。
+1. 安装**cURL 库** [https://curl.se/windows/](https://curl.se/windows/)，并配置到环境变量。
 2. 使用以下命令编译：
 
    ```bash
