@@ -1,6 +1,4 @@
 import requests
-import logging
-import http.client
 
 # 设置请求URL
 url = 'http://172.18.18.61:8080/eportal/InterFace.do?method=login'
