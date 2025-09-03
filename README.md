@@ -52,7 +52,7 @@
    ```bash
    g++ -o AutoLink.exe AutoLink.cpp -mwindows -lcurl
    ```
-3.在原目录下会生成`AutoLink.exe`。
+3. 在原目录下会生成`AutoLink.exe`。
 #### B. 使用 Python 编译
 
 1. 安装 **PyInstaller**：
@@ -65,7 +65,7 @@
    ```bash
    pyinstaller --onefile AutoLink.py
    ```
-3.在原目录下会生成disk文件夹，`AutoLink.exe`在文件夹里。
+3. 在原目录下会生成disk文件夹，`AutoLink.exe`在文件夹里。
 
 ---
 
