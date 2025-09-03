@@ -72,7 +72,7 @@
 
 * **方法 A**：将 `AutoLink.exe` 放在桌面，开机后双击运行即可。
 * **方法 B（推荐）**：设置开机自启
-  0. 若要设置开机自启，请使用C++编译版本！不推荐Python！
+  0. 若要设置开机自启，推荐C++编译版本
   1. 将程序放至合适目录。
   2. 打开 **任务计划程序**，新建任务并添加启动项。
 
@@ -85,8 +85,9 @@
 ![步骤2](https://github.com/user-attachments/assets/6cb4c7d3-cd74-4e11-8278-d3f979b50ede)
 ![步骤3](https://github.com/user-attachments/assets/88563e75-6624-4e48-b5b3-07c3f141214c)
 ![步骤4](https://github.com/user-attachments/assets/e45ceb64-1e36-4bb2-88e6-c32173632b8e)
-![步骤5](https://github.com/user-attachments/assets/478c03ba-3bdc-40c7-8100-7d75162e46cb)
-![步骤6](https://github.com/user-attachments/assets/ae0efb9c-a216-49ad-a963-8e76151288f7)
-![步骤7](https://github.com/user-attachments/assets/1ecc10dd-0749-44e2-9c50-961f116de7b3)
+![步骤5](https://github.com/user-attachments/assets/584415b9-9e59-4b3a-a989-bfb1c12aad43)
+![步骤6](https://github.com/user-attachments/assets/1ecc10dd-0749-44e2-9c50-961f116de7b3)
+![步骤7](https://github.com/user-attachments/assets/c86df661-a5d1-4962-a2f6-36f1e70e4db9)
+
 
 🎉 **大功告成！每次开机或唤醒将自动连接校园以太网！**
