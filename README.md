@@ -65,7 +65,7 @@
    ```bash
    pyinstaller --onefile AutoLink.py
    ```
-3. 在原目录下会生成disk文件夹，`AutoLink.exe`在文件夹里。
+3. 在原目录下会生成dist文件夹，`AutoLink.exe`在文件夹里。
 
 ---
 
