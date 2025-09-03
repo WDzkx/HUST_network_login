@@ -44,7 +44,7 @@
 
 ### 4. 编译并封装为可执行文件（以 Windows 为例）
 
-#### A. 推荐：使用 C++ 编译
+#### A. (推荐)使用 C++ 编译
 
 1. 安装**cURL 库** [https://curl.se/windows/](https://curl.se/windows/)，并配置到环境变量。
 2. 使用以下命令编译：
@@ -52,7 +52,7 @@
    ```bash
    g++ -o AutoLink.exe AutoLink.cpp -mwindows -lcurl
    ```
-
+3.在原目录下会生成`AutoLink.exe`。
 #### B. 使用 Python 编译
 
 1. 安装 **PyInstaller**：
@@ -65,20 +65,19 @@
    ```bash
    pyinstaller --onefile AutoLink.py
    ```
+3.在原目录下会生成disk文件夹，`AutoLink.exe`在文件夹里。
 
 ---
 
 ### 5. 运行可执行文件
 
-* **方法 A**：将 `AutoLink.exe` 放在桌面，开机后双击运行即可。
-* **方法 B（推荐）**：设置开机自启
-  0. 若要设置开机自启，推荐C++编译版本
+* **方案A.**：将 `AutoLink.exe` 放在桌面，每次开机后手动双击运行即可。
+* **方案B.(推荐)**：设置开机自启
   1. 将程序放至合适目录。
   2. 打开 **任务计划程序**，新建任务并添加启动项。
 
-操作示例：
-
-请将选项设置为与图中一致
+方案B的详细操作示例如下。
+请将选项设置为与图中一致。
 
 ![任务计划程序-新建任务](https://github.com/user-attachments/assets/21ad74ea-5b68-42ad-bbe9-50f3d8ef13f8)
 ![步骤1](https://github.com/user-attachments/assets/e3049b05-39bd-446e-b7d4-0161cb8348c7)
@@ -90,4 +89,4 @@
 ![步骤7](https://github.com/user-attachments/assets/c86df661-a5d1-4962-a2f6-36f1e70e4db9)
 
 
-🎉 **大功告成！每次开机或唤醒将自动连接校园以太网！**
+## 🎉大功告成！每次开机或唤醒将自动连接校园以太网！
