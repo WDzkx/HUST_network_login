@@ -12,7 +12,7 @@ url = 'http://172.18.18.61:8080/eportal/InterFace.do?method=login'
     # 其他无需更改
 data = {
     "userId": "example",      # 学号
-    "password": "example",    # 密码
+    "password": "example",    # 加密密码
     "service": "",
     "queryString": "example",  # 校验码
     "operatorPwd": "",
